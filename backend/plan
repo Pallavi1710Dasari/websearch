@@ -1,0 +1,17 @@
+backend:
+
+load all the files into mongo db. each collection with file name as key and records of the file as objects
+
+develop a get API which accepts the all the filters as query params. implementation of this api should query mongo db to get the required data.
+
+
+
+User UI:
+
+user should be able to select the filename from a dropdown.
+
+upon selection, the corresponding columns in the file should be available as filters for the user to filter data
+
+take the inputs from the user and form a query and execute the query to get desired results.
+
+show the result as list of items in the output
